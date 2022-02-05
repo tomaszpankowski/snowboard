@@ -1,11 +1,12 @@
 import React,{Component} from "react";
 import Container from "../../node_modules/react-bootstrap/Container";
+import ShopS1 from "../components/shop-s1";
 
 class Shop extends Component{
     render(){
         return(        
-            <Container fluid className="shop-s1 d-flex align-items-center minh-100vh">
-                
+            <Container fluid className="minh-footer-adj p-0">
+                <ShopS1/>
             </Container>    
         );
     }
