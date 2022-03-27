@@ -21,18 +21,18 @@ class ContactData extends Component{
                     <Col xs={{span:12,order:1}} md={{span:7,order:2}} className="minh-25vh"></Col>
                     <Col xs={{span:12,order:2}} md={{span:5,order:1}} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start">
-                            <h5 className="text-white">
+                            <h5 className="text-secondary">
                                 Sed ut perspiciatis
                             </h5>
-                            <h2 className="dispaly-6 fw-bold text-white-50 text-shadow">
+                            <h2 className="dispaly-6 fw-bold text-info text-shadow">
                                 Unde omnis iste
                             </h2>
-                            <p className="text-white">
+                            <p className="text-dark">
                                 Natus error sit voluptatem accusantium doloremque laudantium, 
                                 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
                                 et quasi architecto beatae vitae dicta sunt explicabo. 
                             </p>
-                            <Link to="#" className="btn btn-sm btn-outline-light rounded-pill">
+                            <Link to="/" className="btn btn-sm btn-info text-white rounded-pill">
                                 Lorem ipsum <span className="fw-bold mx-1">dolor</span>
                             </Link>
                         </div>
