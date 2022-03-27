@@ -1,1 +1,70 @@
 @include aoa-bg-series($bg__init,$classes_init);
+
+.about{
+    &-s1,&-s2{
+        *{
+            color: #fff !important;
+            text-shadow: $text__shadow;
+        }
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+
+.event{
+    &-s3{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+
+nav{
+    z-index: 10;
+}
+
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .contact,.index{
+        &-s1{
+            *{
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+    .event{
+        &-s1,&-s2{
+            *{
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+    .navbar{
+        &-nav{
+            *{
+                &:hover{
+                    opacity: 0.8;
+                }
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #333!important;
+            background-blend-mode: multiply!important;
+            opacity:0.9;
+        }
+    }
+}
