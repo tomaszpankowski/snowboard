@@ -1,13 +1,15 @@
 @include aoa-bg-series($bg__init,$classes_init);
-
-.about{
-    &-s1,&-s2{
-        *{
-            color: #fff !important;
-            text-shadow: $text__shadow;
+@media all and (orientation: portrait){
+    .about,.event{
+        &-s1{
+            background-position-x: center!important;
         }
-        background-color: #999!important;
-        background-blend-mode: multiply!important;
+        &-s2{
+            background-position-x: center!important;
+        }
+    }
+    .index-s1{
+        background-position-x: center!important;
     }
 }
 
@@ -23,8 +25,11 @@
         text-shadow: $text__shadow;
     }
 }
-
-nav{
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "PermanentMarker";
+    letter-spacing: 2px;
+}
+header,nav{
     z-index: 10;
 }
 
@@ -33,6 +38,17 @@ textarea{
 }
 
 @media all and (max-width: 767px){
+    .about{
+        &-s1,&-s2{
+            *{
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+    
     .contact,.index{
         &-s1{
             *{

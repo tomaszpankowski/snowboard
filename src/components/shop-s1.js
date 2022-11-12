@@ -33,47 +33,10 @@ class ShopS1 extends Component{
                                         </legend>                                    
                                         <Form.Check className="ms-2"
                                             type="checkbox"
-                                            label="Men"/>                        
+                                            label="Individual"/>                        
                                         <Form.Check className="ms-2"
                                             type="checkbox"
-                                            label="Women"/>                  
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Kids"/>                                                    
-                                    </fieldset>
-                                    <fieldset className="mb-5 w-100">
-                                        <legend>
-                                            <Card.Subtitle>
-                                                Clothing
-                                            </Card.Subtitle>
-                                        </legend>                   
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Activewear"/>      
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Blazers"/>     
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Causal shirts"/>
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Coats"/>
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Denim"/>
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Jackets"/>
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Shorts"/>
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="Sweats"/>
-                                        <Form.Check className="ms-2"
-                                            type="checkbox"
-                                            label="T-Shirts"/>
+                                            label="Group"/>                                                    
                                     </fieldset>
                                     <div className="w-100 text-end border-top pt-2">
                                         <Button type="reset" variant="secondary" size="sm" className="rounded-pill">
